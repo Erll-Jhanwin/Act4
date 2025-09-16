@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">ejc.dev</a></div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <a href="" class="action_btn btn btn-primary">Get started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="" class="action_btn btn btn-primary">Get Started</a></li>
+        </div>
+    </header>
+
+    <!-- Heading Section -->
+    <div id="home" class="home d-flex justify-content-center align-items-center text-center">
+        <div class="container">
+            <h1><b>Welcome to My Portfolio</b></h1>
+            <br>
+            <p class="lead">Showcasing my skills, projects, and journey as a passionate developer dedicated to crafting innovative solutions, building impactful web applications, and continuously growing in the ever-evolving world of technology.</p>
+            <a href="#about" class="explore_btn btn btn-primary">Explore</a>
+        </div>
+    </div>
+
+  <!-- About Me Section -->
+  <section id="about" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4"><b>About Me</b></h2>
+      <hr>
+      <p class="text-center">Hello! I'm a passionate developer who loves creating web applications, learning new technologies, and solving real-world problems through coding.</p>
+    </div>
+  </section>
+
+  <!-- My Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="text-center mb-4"><b>My Skills</b></h2>
+      <hr>
+      <p class="text-center">Those are my tech stack.</p>
+      <div class="skills text-center">
+        <span><i class="fa-brands fa-html5 fa-3x" style="color: #ff4d00;"></i></span>
+        <span><i class="fa-brands fa-css3-alt fa-3x" style="color: #005eff;"></i></span>
+        <span><i class="fa-brands fa-js fa-3x" style="color: #fff700;"></i></span>
+        <span><i class="fa-brands fa-bootstrap fa-3x" style="color: #794dff;"></i></span>
+        <span><i class="fa-brands fa-php fa-3x" style="color: #7377ad;"></i></span>
+        <span><i class="fa-solid fa-database fa-3x"></i></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Projects Section -->
+  <section id="projects" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4"><b>My Projects</b></h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Activity 1 - Text Formatting</h5>
+              <p class="card-text">A simple web page built using HTML and CSS. Applying the text formatting tags</p>
+                <div class="tech_icon">
+                    <i class="fa-brands fa-html5" style="color: #ff4d00;"></i>
+                    <i class="fa-brands fa-css3-alt" style="color: #005eff;"></i>
+                    
+                </div><br>
+              <a href="https://erll-jhanwin.github.io/act1-2/text.html" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Activity 2 - Tables</h5>
+              <p class="card-text">A web page that uses table tags and using the attributes of it.</p>
+                <div class="tech_icon">
+                      <i class="fa-brands fa-html5" style="color: #ff4d00;"></i>
+                      <i class="fa-brands fa-css3-alt" style="color: #005eff;"></i>
+                      
+                </div><br>
+              <a href="https://erll-jhanwin.github.io/act1-2/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Activity 3 - Online Shop</h5>
+              <p class="card-text">This is a simple online shop website that contains products that the customer can buy it.</p>
+                <div class="tech_icon">
+                      <i class="fa-brands fa-html5" style="color: #ff4d00;"></i>
+                      <i class="fa-brands fa-css3-alt" style="color: #005eff;"></i>
+                      <i class="fa-brands fa-js" style="color: #fff700;"></i>
+                      <i class="fa-brands fa-bootstrap" style="color: #794dff;"></i>
+                </div><br>
+              <a href="https://erll-jhanwin.github.io/ACT3/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS & Dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript for Smooth Scroll -->
+  <script src="index.js"></script>
+</body>
+</html>
