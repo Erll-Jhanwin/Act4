@@ -136,6 +136,14 @@ body {
         }
     }
 
+
+    
+
+.pic{
+    border-radius: 50%;
+    border: 5px solid #0d6efd;
+}
+
     #home {
       background: white;
       color: black;
